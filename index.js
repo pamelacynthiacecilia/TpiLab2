@@ -8,7 +8,6 @@ app.listen('3000',function(){
     console.log('la app se inicio en el puerto 3000')
 });
 
-
 //configuración pug
 app.set('views','./view');
 app.set('view engine','pug');

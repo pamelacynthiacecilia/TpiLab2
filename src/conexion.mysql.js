@@ -1,9 +1,6 @@
 import mysql from 'mysql';
 let todosPacientes;
 
-
-
-
 const conexion= mysql.createConnection(
     {
         user:'root',
